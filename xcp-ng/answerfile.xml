@@ -3,7 +3,7 @@
         <primary-disk>sda</primary-disk>
         <keymap>us</keymap>
         <root-password>xen</root-password>
-        <source type="url">http://192.168.0.182/repo-xcp-ng/</source>
+	<source type="url">http://192.168.0.182/xcp-ng/repo/</source>
         <post-install-script type="url">
 	    http://192.168.0.182/xcp-ng/post-install-script
         </post-install-script>
