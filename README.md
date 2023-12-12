@@ -7,6 +7,15 @@ Passwords of those build
 - xcp-ng: root / xen
 - harvester: rancher / rancher
 
+The repo consists solely of the CD, and it's important to include hidden dot files to ensure it functions correctly.
+
+To copy the files in iso
+```
+mount -o loop xxx.iso /mnt
+rsync -avCHcz /mnt/ /var/www/html/xxx/repo/
+umount /mnt
+```
+
 ```bash
 tree -L 3 /var/www/html
 ```
