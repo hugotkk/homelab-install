@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cat << EOF | tee /root/test.txt
+OK
+$(hostname)
+$(date)
+EOF
