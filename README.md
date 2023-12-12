@@ -1,5 +1,12 @@
 apache server to serve config, iso or repo need from netboot
 
+Passwords of those build
+
+- rocky: rocky / rocky
+- ubuntu: ubuntu / ubuntu
+- xcp-ng: root / xen
+- harvester: rancher / rancher
+
 ```bash
 tree -L 3 /var/www/html
 ```
