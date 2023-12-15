@@ -1,7 +1,7 @@
 scheme_version: 1
 token: token
+server_url: https://203.0.113.180:443
 os:
-  server_url: https://203.0.113.180:443
   password: harvester
   dns_nameservers:
   - 1.1.1.1
