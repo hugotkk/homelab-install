@@ -16,6 +16,5 @@ install:
       miimon: 100
   device: /dev/sda
   iso_url: http://192.168.0.182/iso/harvester-v1.2.1-amd64.iso
-  tty: ttyS1,115200n8
   vip: 203.0.113.180
   vip_mode: static
