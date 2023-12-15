@@ -8,7 +8,7 @@ install:
   mode: create
   management_interface:
     interfaces:
-      - name: ens19
+      - name: ens18
     default_route: true
     method: dhcp
     bond_options:

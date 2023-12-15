@@ -9,7 +9,7 @@ install:
   mode: join
   management_interface:
     interfaces:
-      - name: ens3
+      - name: ens18
     default_route: true
     method: dhcp
     bond_options:
