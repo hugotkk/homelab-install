@@ -2,3 +2,4 @@ iso
 !iso/.keep
 */repo
 !*/repo/.keep
+harvester/rootfs.squashfs
